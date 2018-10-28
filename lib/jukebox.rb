@@ -45,7 +45,7 @@ end
 def run
   help
   puts "Please enter a command:"
-  input = gets.strip
+  input = gets.chomp
   if input == "list"
     list
   elsif input == "play"
