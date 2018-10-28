@@ -41,3 +41,6 @@ end
 def exit
   puts "Goodbye"
 end
+
+def run
+end
